@@ -1,2 +1,2 @@
-# friends
-Pseudo Facebook Friends Analysis Dashboard
+# gemstone
+Diamonds Analysis Dashboard
