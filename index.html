@@ -29,9 +29,9 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="index.html">
-                <span>
+                <!-- <span>
                   <img src="#" width="30" height="30" alt="" />
-                </span>Gemstone</a>
+                </span> -->Gemstone</a>
             </div>
 
             <!-- Nav links -->
@@ -52,7 +52,13 @@
                       <a href="pages/vis3.html">Color</a>
                     </li>
                     <li>
-                      <a href="pages/vis4.html">Count</a>
+                      <a href="pages/vis4.html">Carat</a>
+                    </li>
+                    <li>
+                      <a href="pages/vis5.html">Count vs. Price/Carat</a>
+                    </li>
+                    <li>
+                      <a href="pages/vis6.html">Count vs. Price</a>
                     </li>
                     <li role="separator" class="divider"></li>
                   </ul>
@@ -72,47 +78,62 @@
       </div>
     </header>
 
+    <section class="jumbo-tron">
+      <!-- jumbotron -->
+    </section>
+
     <!-- Main -->
     <main>
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-            <h2>Summary</h2>
-            <section id="summary">
+            <h1>Summary</h1>
+            <section id="summary" class="centered">
               <section id="figure">
                 <img id="summary-image" src="img\price_vs_volume_by_clarity.png" width="300" alt="price_vs_volume_by_clarity">
               </section>
-              <p class="summary-text">Lorem ipsum dolor sit amet, eu erant facilisis posidonium nec, ei consul audiam viderer cum. Mutat possit ei
-                cum, alterum menandri in vix. Enim definitiones ius ex. Pri semper forensibus cu. Ex quo purto oratio, ad
-                ignota omnesque mei. Vim sumo dicam recusabo ut, eros accumsan reformidans te has.</p>
-              <p class="summary-text">Eruditi inciderint vel in, eos cu nostro debitis, est ut cetero voluptatibus. Unum debitis oportere pri et,
-                usu at dicam quodsi periculis, atqui graecis sit id. Apeirian periculis et sed, his cu elitr qualisque. Duo
-                verear deserunt cu. Usu at unum aeterno laoreet, mea inani oratio graeci te. An sed ridens tritani accusam.</p>
+              <p class="summary-text">The purpose of this project was to analyze the R diamonds dataset. To accomplish this analysis, I first accessed
+                the data from R Studio which comes pre-installed with R: The R Project for Statistical Computing.</p>
+              <p class="summary-text">The ultimate goal was to build a predictive model of diamonds that was going to help figure out whether a given
+                diamond is a good deal or not. For those looking to buy, this dataset can help you understand what goes into
+                the price of a diamond.</p>
             </section>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-            <aside id="visualizations">
-              <h2>Visualizations</h2>
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
-                <a href="pages/vis1.html" class="thumbnail">
-                  <img src="img\price_vs_volume_by_clarity.png" alt="price_vs_volume_by_clarity">
-                </a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
-                <a href="pages/vis2.html" class="thumbnail">
-                  <img src="img\price_vs_cut.png" alt="price_vs_cut.png">
-                </a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
-                <a href="pages/vis3.html" class="thumbnail">
-                  <img src="img\price_per_carat_vs_color.png" alt="price_per_carat_vs_color.png">
-                </a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
-                <a href="pages/vis4.html" class="thumbnail">
-                  <img src="img\count_vs_price_per_carat.png" alt="count_vs_price_per_carat">
-                </a>
-              </div>
+            <h1>Visualizations</h1>
+            <aside class="top-pad">
+              <section>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
+                  <a href="pages/vis1.html" class="thumbnail">
+                    <img src="img\price_vs_volume_by_clarity.png" alt="price_vs_volume_by_clarity">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
+                  <a href="pages/vis2.html" class="thumbnail">
+                    <img src="img\price_vs_cut.png" alt="price_vs_cut.png">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
+                  <a href="pages/vis3.html" class="thumbnail">
+                    <img src="img\price_per_carat_vs_color.png" alt="price_per_carat_vs_color.png">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
+                  <a href="pages/vis4.html" class="thumbnail">
+                    <img src="img\price_vs_carat.png" alt="price_vs_carat">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
+                  <a href="pages/vis5.html" class="thumbnail">
+                    <img src="img\count_vs_price_per_carat.png" alt="count_vs_price_per_carat">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-6">
+                  <a href="pages/vis6.html" class="thumbnail">
+                    <img src="img\count_vs_price.png" alt="count_vs_price">
+                  </a>
+                </div>
+              </section>
             </aside>
           </div>
         </div>

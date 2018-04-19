@@ -82,53 +82,59 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
-            <h1>Comparison: Price vs. X</h1>
-            <hr>
-            <p>Click any plot to get an in-depth analysis.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <section id="visualizations">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <h3 class="vis-comp-title">vs. Volume by Clarity</h3>
-              <a href="vis1.html" class="thumbnail">
-                <img src="..\img\price_vs_volume_by_clarity.png" alt="price_vs_volume_by_clarity">
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <h3 class="vis-comp-title">vs. Cut</h3>
-              <a href="vis2.html" class="thumbnail">
-                <img src="..\img\price_vs_cut.png" alt="price_vs_cut.png">
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <h3 class="vis-comp-title">vs. Color</h3>
-              <a href="vis3.html" class="thumbnail">
-                <img src="..\img\price_per_carat_vs_color.png" alt="price_per_carat_vs_color.png">
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <h3 class="vis-comp-title">vs. Carat</h3>
-              <a href="vis4.html" class="thumbnail">
-                <img src="..\img\price_vs_carat.png" alt="price_vs_carat">
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <h3 class="vis-comp-title">Count vs. Price/Carat</h3>
-              <a href="vis5.html" class="thumbnail">
-                <img src="..\img\count_vs_price_per_carat.png" alt="count_vs_price_per_carat">
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <h3 class="vis-comp-title">Count vs. Price</h3>
-              <a href="vis6.html" class="thumbnail">
-                <img src="..\img\count_vs_price.png" alt="count_vs_price">
-              </a>
+          <section>
+            <div class="col-sm-12 col-md-8">
+              <h1>Count vs. Price</h1>
+              <section id="vis-indv" class="centered top-pad">
+                <a href="..\img\count_vs_price.png">
+                  <img src="..\img\count_vs_price.png" class="img-responsive" alt="count_vs_price" />
+                </a>
+              </section>
+              <section id="vis-description">
+                <p>We can see that the prices for diamonds are pretty heavily skewed, but when you put those prices on a log
+                  10 scale they seem much better behaved. They're much closer to the bell curve of a normal distribution
+                  on this log 10 scale. This bell curve may be bimodal which then we can speculate customers of high or low
+                  economic classes buy what kinds of diamonds.</p>
+              </section>
             </div>
           </section>
+          <div class="col-md-4">
+            <h1>Visualizations</h1>
+            <aside class="top-pad">
+              <section>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <a href="vis1.html" class="thumbnail">
+                    <img src="..\img\price_vs_volume_by_clarity.png" alt="price_vs_volume_by_clarity">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <a href="vis2.html" class="thumbnail">
+                    <img src="..\img\price_vs_cut.png" alt="price_vs_cut">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <a href="vis3.html" class="thumbnail">
+                    <img src="..\img\price_per_carat_vs_color.png" alt="price_per_carat_vs_color">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <a href="vis4.html" class="thumbnail">
+                    <img src="..\img\price_vs_carat.png" alt="price_vs_carat">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <a href="vis5.html" class="thumbnail">
+                    <img src="..\img\count_vs_price_per_carat.png" alt="count_vs_price_per_carat">
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <a href="vis6.html" class="thumbnail">
+                    <img src="..\img\count_vs_price.png" alt="count_vs_price">
+                  </a>
+                </div>
+              </section>
+            </aside>
+          </div>
         </div>
       </div>
     </main>
@@ -138,7 +144,6 @@
       <!-- Copyright -->
       <div class="footer-copyright py-3 text-center">
         © 2018 Copyright
-        <!-- <a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a> -->
       </div>
     </footer>
 

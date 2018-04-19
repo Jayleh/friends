@@ -1,6 +1,6 @@
-header,
-main {
+header {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .navbar-brand {
@@ -11,12 +11,70 @@ header {
     font-size: 18px;
 }
 
+main {
+    padding-bottom: 30px;
+}
 
+h1 {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: rgb(25, 82, 129);
+}
 
+h3 {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(25, 82, 129);
+}
 
-#summary,
+p {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14.5px;
+}
+
+.nav-font-color {
+    color: black;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#clarity-chart {
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#vis-description {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 150%;
+}
+
+#summary {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#summary-figure,
 #summary-image {
     float: left;
+}
+
+@media (min-width: 1200px) {
+    #summary-figure,
+    #summary-image {
+        float: left;
+        padding: 20px;
+    }
+
+    .jumbo-tron {
+        padding: 30px;
+    }
 }
 
 #figure {
@@ -26,6 +84,17 @@ header {
 .summary-text {
     line-height: 200%;
     font-size: 16px;
+}
+
+.top-pad {
+    padding-top: 30px;
+}
+
+.vis-comp-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 footer {
