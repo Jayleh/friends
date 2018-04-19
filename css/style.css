@@ -21,9 +21,18 @@ h1 {
     color: rgb(25, 82, 129);
 }
 
+h3 {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(25, 82, 129);
+}
+
 p {
     font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14.5px;
+}
+
+.nav-font-color {
+    color: black;
 }
 
 .centered {
@@ -48,6 +57,7 @@ p {
 
 #summary {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #summary-figure,
@@ -59,6 +69,10 @@ p {
     #summary-figure,
     #summary-image {
         float: left;
+        padding: 20px;
+    }
+
+    .jumbo-tron {
         padding: 30px;
     }
 }
@@ -72,8 +86,15 @@ p {
     font-size: 16px;
 }
 
-#visualizations {
+.top-pad {
     padding-top: 30px;
+}
+
+.vis-comp-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 footer {
